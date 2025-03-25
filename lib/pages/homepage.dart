@@ -9,6 +9,12 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container(
+      child: Column(
+        children: [
+          Text("first text for github test")
+        ],
+      ),
+    );
   }
 }
