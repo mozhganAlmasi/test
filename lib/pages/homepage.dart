@@ -12,7 +12,8 @@ class _HomePageState extends State<HomePage> {
     return Container(
       child: Column(
         children: [
-          Text("first text for github test")
+          Text("first text for github test"),
+          Text("Second text for new branch ") 
         ],
       ),
     );
